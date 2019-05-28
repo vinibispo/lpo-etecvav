@@ -1,0 +1,10 @@
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\bin\Debug\EXDECISAO1.exe.config
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\bin\Debug\EXDECISAO1.exe
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\bin\Debug\EXDECISAO1.pdb
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.csprojAssemblyReference.cache
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.Form1.resources
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.Properties.Resources.resources
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.csproj.GenerateResource.cache
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.exe
+C:\Users\Thiago\Desktop\Thiago\Programação\Desktop\C#\EXDECISAO1\EXDECISAO1\obj\Debug\EXDECISAO1.pdb
