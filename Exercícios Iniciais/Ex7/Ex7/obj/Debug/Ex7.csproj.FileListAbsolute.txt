@@ -1,0 +1,9 @@
+C:\Users\Aluno\Desktop\Ex7\Ex7\bin\Debug\Ex7.exe.config
+C:\Users\Aluno\Desktop\Ex7\Ex7\bin\Debug\Ex7.exe
+C:\Users\Aluno\Desktop\Ex7\Ex7\bin\Debug\Ex7.pdb
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.Form1.resources
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.exe
+C:\Users\Aluno\Desktop\Ex7\Ex7\obj\Debug\Ex7.pdb
