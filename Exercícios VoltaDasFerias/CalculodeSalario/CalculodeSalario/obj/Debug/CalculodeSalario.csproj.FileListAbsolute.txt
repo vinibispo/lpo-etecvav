@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\bin\Debug\CalculodeSalario.exe.config
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\bin\Debug\CalculodeSalario.exe
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\bin\Debug\CalculodeSalario.pdb
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.Form1.resources
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.Properties.Resources.resources
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.exe
+C:\Users\Aluno\Desktop\CalculodeSalario\CalculodeSalario\obj\Debug\CalculodeSalario.pdb
