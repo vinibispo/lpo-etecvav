@@ -19,8 +19,8 @@ namespace CarroOuCaminhao
         {
             carro = true;
             lbl_eixo.Visible = false;
-            txt_eixo.Visible = false;
             txt_caminhao.Visible = false;
+            txt_eixo.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,12 +53,15 @@ namespace CarroOuCaminhao
                 txt_caminhao.AppendText("Placa: " + placa + "\t");
                 txt_caminhao.AppendText("Km: " + km + "\t");
                 txt_caminhao.AppendText("Eixo: " + eixo + "\r\n");
+            
+           
+
             }
             txt_modelo.Clear();
             txt_eixo.Clear();
             msk_placa.Clear();
             txt_km.Clear();
-            txt_modelo.Clear();
+            txt_modelo.Focus();
         }
 
         private void btn_caminhao_Click(object sender, EventArgs e)

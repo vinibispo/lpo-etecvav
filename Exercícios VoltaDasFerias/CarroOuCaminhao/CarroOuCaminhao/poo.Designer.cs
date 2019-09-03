@@ -122,6 +122,7 @@
             this.msk_placa.Name = "msk_placa";
             this.msk_placa.Size = new System.Drawing.Size(136, 20);
             this.msk_placa.TabIndex = 25;
+          
             // 
             // txt_km
             // 

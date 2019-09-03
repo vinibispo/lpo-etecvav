@@ -9,7 +9,7 @@ namespace CarroOuCaminhao
     class Veiculo
     {
         private string mod, placa, km;
-        private bool carro;
+        
         public string Infmod {
             set { mod = value; }
             get { return  mod; }
@@ -24,10 +24,6 @@ namespace CarroOuCaminhao
             set { km = value; }
             get { return km; }
         }
-        public bool Infcarro
-        {
-            set { carro = value; }
-            get { return carro; }
-        }
+    
     }
 }
