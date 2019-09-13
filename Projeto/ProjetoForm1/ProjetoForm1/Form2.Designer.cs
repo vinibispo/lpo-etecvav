@@ -36,6 +36,7 @@
             this.atividade3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.yhhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +57,8 @@
             this.atividadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.atividade1ToolStripMenuItem,
             this.atividade2ToolStripMenuItem,
-            this.atividade3ToolStripMenuItem});
+            this.atividade3ToolStripMenuItem,
+            this.atividade4ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -95,6 +97,13 @@
             this.yhhToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.yhhToolStripMenuItem.Text = "yhh";
             // 
+            // atividade4ToolStripMenuItem
+            // 
+            this.atividade4ToolStripMenuItem.Name = "atividade4ToolStripMenuItem";
+            this.atividade4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade4ToolStripMenuItem.Text = "Atividade 4";
+            this.atividade4ToolStripMenuItem.Click += new System.EventHandler(this.atividade4ToolStripMenuItem_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,5 +130,6 @@
         private System.Windows.Forms.ToolStripMenuItem atividade3ToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem yhhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atividade4ToolStripMenuItem;
     }
 }

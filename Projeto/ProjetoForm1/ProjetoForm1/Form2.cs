@@ -38,5 +38,14 @@ namespace ProjetoForm1
             a3.Show();
             this.Hide();
         }
+
+
+
+        private void atividade4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ManipulacaoString ms = new ManipulacaoString();
+            ms.Show();
+            this.Hide();
+        }
     }
 }
