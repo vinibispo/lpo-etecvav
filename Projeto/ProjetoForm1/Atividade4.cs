@@ -77,11 +77,11 @@ namespace ProjetoForm1
             
             if (frase == fraseinversa)
             {
-                MessageBox.Show("A frase é um políndrome.", "Políndrome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("A frase é um palíndromo.", "Palíndromo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("A frase não é um políndrome.", "Políndrome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("A frase não é um palíndromo.", "Palíndromo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
          
