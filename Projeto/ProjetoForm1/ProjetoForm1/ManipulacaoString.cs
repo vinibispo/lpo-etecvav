@@ -15,6 +15,7 @@ namespace ProjetoForm1
         int a, lettere, letteri, o, u;
         string phrase, inverse, space;
         string[] words;
+        char[] arr;
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -45,10 +46,9 @@ namespace ProjetoForm1
             txt_u.Clear();
             lb_letter.Text = "";
             phrase = txt_fra.Text;
-            for (int i = phrase.Length - 1; i >= 0; i--)
-            {
-                inverse += phrase[i];
-            }
+            arr = phrase.ToCharArray();
+            Array.Reverse(arr);
+            inverse = new string(arr);
             txt_oposite.Text = inverse;
             inverse = "";
             for (int i = 0; i < phrase.Length; i++)

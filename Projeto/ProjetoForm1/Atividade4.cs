@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProjetoForm1
+{
+    public partial class Atividade4 : Form
+    {
+        string frase, fraseinversa, frasesemespaco, a="a", le="e", i="i" ,o="o" ,u="u" ;
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Hide();
+        }
+
+        public Atividade4()
+        {
+            InitializeComponent();
+        }
+
+        private void Atividade4_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            frase = txt_frase.Text;
+
+            for (int i = frase.Length - 1; i >= 0; i--)
+            {
+                fraseinversa += frase[i];
+               
+            }
+
+            txt_inversa.Text = fraseinversa;
+
+            for (int i = 0; i < frase.Length; i++)
+            {
+                l_vertical.Items.Add(frase[i]);
+            }
+
+            frasesemespaco = frase.Replace(" ", "");
+            txt_espaco.Text = frasesemespaco;
+
+            int quantidade_a = frase.Length - frase.Replace(a, "").Length;
+            txt_a.Text = quantidade_a.ToString();
+
+            int quantidade_e= frase.Length - frase.Replace(le, "").Length;
+            txt_e.Text = quantidade_e.ToString();
+
+            int quantidade_i = frase.Length - frase.Replace(i, "").Length;
+            txt_i.Text = quantidade_i.ToString();
+
+            int quantidade_o = frase.Length - frase.Replace(o, "").Length;
+            txt_o.Text = quantidade_o.ToString();
+
+            int quantidade_u = frase.Length - frase.Replace(u, "").Length;
+            txt_u.Text = quantidade_u.ToString();
+
+
+
+            for (int i = 0; i<= frase.Length - frase.Replace(" ", "").Length; i++)
+            {
+                string[] palavraporpalavra = frase.Split();
+                l_porpalavra.Items.Add(palavraporpalavra[i]);
+            }
+            
+            if (frase == fraseinversa)
+            {
+                MessageBox.Show("A frase é um políndrome.", "Políndrome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("A frase não é um políndrome.", "Políndrome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+         
+        }
+
+        private void btn_novo_Click(object sender, EventArgs e)
+        {
+            txt_frase.Clear();
+            txt_frase.Focus();
+            txt_inversa.Clear();
+            txt_espaco.Clear();
+            txt_a.Clear();
+            txt_e.Clear();
+            txt_i.Clear();
+            txt_o.Clear();
+            txt_u.Clear();
+            l_porpalavra.Items.Clear();
+            l_vertical.Items.Clear();
+            fraseinversa = "";
+        }
+    }
+}
