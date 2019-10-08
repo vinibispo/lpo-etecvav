@@ -69,6 +69,12 @@
     <Compile Include="Atividade1.Designer.cs">
       <DependentUpon>Atividade1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Atividade5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividade5.Designer.cs">
+      <DependentUpon>Atividade5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Atividade1.resx">
       <DependentUpon>Atividade1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividade5.resx">
+      <DependentUpon>Atividade5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -113,6 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Imagem\foto1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

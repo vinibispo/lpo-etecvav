@@ -19,7 +19,17 @@ namespace ProjetoForm1
 
         private void Atividade3_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+
+            if (MessageBox.Show("Você realmente deseja sair?", "Deseja sair?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+
+            else
+            {
+                e.Cancel = true;
+
+            }
         }
 
         private void btn_ver_Click(object sender, EventArgs e)

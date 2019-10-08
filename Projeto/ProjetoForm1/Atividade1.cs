@@ -83,7 +83,17 @@ namespace ProjetoForm1
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+
+            if (MessageBox.Show("Você realmente deseja sair?", "Deseja sair?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+
+            else
+            {
+                e.Cancel = true;
+
+            }
         }
 
         private void lb1_SelectedIndexChanged(object sender, EventArgs e)

@@ -70,7 +70,7 @@
             this.txt_frase.Location = new System.Drawing.Point(16, 59);
             this.txt_frase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_frase.Name = "txt_frase";
-            this.txt_frase.Size = new System.Drawing.Size(505, 22);
+            this.txt_frase.Size = new System.Drawing.Size(401, 22);
             this.txt_frase.TabIndex = 1;
             // 
             // txt_inversa
@@ -79,7 +79,7 @@
             this.txt_inversa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_inversa.Name = "txt_inversa";
             this.txt_inversa.ReadOnly = true;
-            this.txt_inversa.Size = new System.Drawing.Size(505, 22);
+            this.txt_inversa.Size = new System.Drawing.Size(401, 22);
             this.txt_inversa.TabIndex = 3;
             // 
             // label2
@@ -99,7 +99,7 @@
             this.txt_espaco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_espaco.Name = "txt_espaco";
             this.txt_espaco.ReadOnly = true;
-            this.txt_espaco.Size = new System.Drawing.Size(505, 22);
+            this.txt_espaco.Size = new System.Drawing.Size(401, 22);
             this.txt_espaco.TabIndex = 5;
             // 
             // label3
@@ -228,7 +228,7 @@
             // 
             this.l_vertical.FormattingEnabled = true;
             this.l_vertical.ItemHeight = 16;
-            this.l_vertical.Location = new System.Drawing.Point(387, 337);
+            this.l_vertical.Location = new System.Drawing.Point(387, 345);
             this.l_vertical.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.l_vertical.Name = "l_vertical";
             this.l_vertical.Size = new System.Drawing.Size(159, 196);
@@ -238,7 +238,7 @@
             // 
             this.l_porpalavra.FormattingEnabled = true;
             this.l_porpalavra.ItemHeight = 16;
-            this.l_porpalavra.Location = new System.Drawing.Point(637, 337);
+            this.l_porpalavra.Location = new System.Drawing.Point(650, 345);
             this.l_porpalavra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.l_porpalavra.Name = "l_porpalavra";
             this.l_porpalavra.Size = new System.Drawing.Size(159, 196);
@@ -259,7 +259,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(633, 311);
+            this.label11.Location = new System.Drawing.Point(646, 311);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(166, 24);
@@ -268,7 +268,7 @@
             // 
             // btn_novo
             // 
-            this.btn_novo.Location = new System.Drawing.Point(951, 458);
+            this.btn_novo.Location = new System.Drawing.Point(728, 137);
             this.btn_novo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_novo.Name = "btn_novo";
             this.btn_novo.Size = new System.Drawing.Size(100, 28);
@@ -279,7 +279,7 @@
             // 
             // btn_exec
             // 
-            this.btn_exec.Location = new System.Drawing.Point(951, 506);
+            this.btn_exec.Location = new System.Drawing.Point(728, 216);
             this.btn_exec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_exec.Name = "btn_exec";
             this.btn_exec.Size = new System.Drawing.Size(100, 28);
@@ -290,8 +290,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(954, 22);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(728, 56);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 23;
@@ -303,8 +303,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(841, 554);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_exec);
             this.Controls.Add(this.btn_novo);

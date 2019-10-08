@@ -48,7 +48,29 @@ namespace ProjetoForm1
 
         private void Menu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+
+            if (MessageBox.Show("Você realmente deseja sair?", "Deseja sair?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+
+            else
+            {
+                e.Cancel = true;
+              
+            }
+        }
+
+        private void AtividadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void atividade5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Atividade5 a5 = new Atividade5();
+            a5.Show();
+            this.Hide();
         }
     }
 }
