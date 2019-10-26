@@ -46,6 +46,10 @@
             this.mostraUmaFraseDeVáriosJeitosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mostraFotosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cálculoEnvolvendoDatasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +97,9 @@
             this.atividade2ToolStripMenuItem,
             this.atividade3ToolStripMenuItem,
             this.atividade4ToolStripMenuItem,
-            this.atividade5ToolStripMenuItem});
+            this.atividade5ToolStripMenuItem,
+            this.atividade6ToolStripMenuItem,
+            this.atividade7ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -174,6 +180,36 @@
             this.mostraFotosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mostraFotosToolStripMenuItem.Text = "Mostra fotos";
             // 
+            // atividade6ToolStripMenuItem
+            // 
+            this.atividade6ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem});
+            this.atividade6ToolStripMenuItem.Name = "atividade6ToolStripMenuItem";
+            this.atividade6ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade6ToolStripMenuItem.Text = "Atividade 6";
+            this.atividade6ToolStripMenuItem.Click += new System.EventHandler(this.atividade6ToolStripMenuItem_Click);
+            // 
+            // atividade7ToolStripMenuItem
+            // 
+            this.atividade7ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cálculoEnvolvendoDatasToolStripMenuItem});
+            this.atividade7ToolStripMenuItem.Name = "atividade7ToolStripMenuItem";
+            this.atividade7ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade7ToolStripMenuItem.Text = "Atividade 7";
+            this.atividade7ToolStripMenuItem.Click += new System.EventHandler(this.atividade7ToolStripMenuItem_Click);
+            // 
+            // selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem
+            // 
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Name = "selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem";
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Size = new System.Drawing.Size(431, 22);
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Text = "Seleciona data e mostra imagem de acordo com as estações do ano";
+            // 
+            // cálculoEnvolvendoDatasToolStripMenuItem
+            // 
+            this.cálculoEnvolvendoDatasToolStripMenuItem.Name = "cálculoEnvolvendoDatasToolStripMenuItem";
+            this.cálculoEnvolvendoDatasToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.cálculoEnvolvendoDatasToolStripMenuItem.Text = "Cálculo envolvendo datas";
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,5 +245,9 @@
         private System.Windows.Forms.ToolStripMenuItem mostraUmaFraseDeVáriosJeitosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atividade5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mostraFotosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atividade6ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atividade7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cálculoEnvolvendoDatasToolStripMenuItem;
     }
 }

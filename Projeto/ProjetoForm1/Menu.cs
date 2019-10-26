@@ -72,5 +72,19 @@ namespace ProjetoForm1
             a5.Show();
             this.Hide();
         }
+
+        private void atividade6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Atividade6 a6 = new Atividade6();
+            a6.Show();
+            this.Hide();
+        }
+
+        private void atividade7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Atividade7 a7 = new Atividade7();
+            a7.Show();
+            this.Hide();
+        }
     }
 }

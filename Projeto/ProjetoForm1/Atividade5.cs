@@ -84,5 +84,12 @@ namespace ProjetoForm1
 
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            this.Hide();
+        }
     }
 }
