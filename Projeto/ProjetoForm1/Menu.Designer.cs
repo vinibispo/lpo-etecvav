@@ -47,9 +47,11 @@
             this.atividade5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mostraFotosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atividade6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.atividade7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cálculoEnvolvendoDatasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atividade8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editorDeTextoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,7 +101,8 @@
             this.atividade4ToolStripMenuItem,
             this.atividade5ToolStripMenuItem,
             this.atividade6ToolStripMenuItem,
-            this.atividade7ToolStripMenuItem});
+            this.atividade7ToolStripMenuItem,
+            this.atividade8ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -177,7 +180,7 @@
             // mostraFotosToolStripMenuItem
             // 
             this.mostraFotosToolStripMenuItem.Name = "mostraFotosToolStripMenuItem";
-            this.mostraFotosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mostraFotosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.mostraFotosToolStripMenuItem.Text = "Mostra fotos";
             // 
             // atividade6ToolStripMenuItem
@@ -189,6 +192,12 @@
             this.atividade6ToolStripMenuItem.Text = "Atividade 6";
             this.atividade6ToolStripMenuItem.Click += new System.EventHandler(this.atividade6ToolStripMenuItem_Click);
             // 
+            // selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem
+            // 
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Name = "selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem";
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Size = new System.Drawing.Size(431, 22);
+            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Text = "Seleciona data e mostra imagem de acordo com as estações do ano";
+            // 
             // atividade7ToolStripMenuItem
             // 
             this.atividade7ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -198,17 +207,26 @@
             this.atividade7ToolStripMenuItem.Text = "Atividade 7";
             this.atividade7ToolStripMenuItem.Click += new System.EventHandler(this.atividade7ToolStripMenuItem_Click);
             // 
-            // selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem
-            // 
-            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Name = "selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem";
-            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Size = new System.Drawing.Size(431, 22);
-            this.selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem.Text = "Seleciona data e mostra imagem de acordo com as estações do ano";
-            // 
             // cálculoEnvolvendoDatasToolStripMenuItem
             // 
             this.cálculoEnvolvendoDatasToolStripMenuItem.Name = "cálculoEnvolvendoDatasToolStripMenuItem";
             this.cálculoEnvolvendoDatasToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.cálculoEnvolvendoDatasToolStripMenuItem.Text = "Cálculo envolvendo datas";
+            // 
+            // atividade8ToolStripMenuItem
+            // 
+            this.atividade8ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editorDeTextoToolStripMenuItem});
+            this.atividade8ToolStripMenuItem.Name = "atividade8ToolStripMenuItem";
+            this.atividade8ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atividade8ToolStripMenuItem.Text = "Atividade 8";
+            this.atividade8ToolStripMenuItem.Click += new System.EventHandler(this.atividade8ToolStripMenuItem_Click);
+            // 
+            // editorDeTextoToolStripMenuItem
+            // 
+            this.editorDeTextoToolStripMenuItem.Name = "editorDeTextoToolStripMenuItem";
+            this.editorDeTextoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editorDeTextoToolStripMenuItem.Text = "Editor de texto";
             // 
             // Menu
             // 
@@ -249,5 +267,7 @@
         private System.Windows.Forms.ToolStripMenuItem selecionaDataEMostraImagemDeAcordoComAsEstaçõesDoAnoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atividade7ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cálculoEnvolvendoDatasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atividade8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editorDeTextoToolStripMenuItem;
     }
 }

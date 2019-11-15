@@ -75,3 +75,4 @@ C:\Users\vinit\Desktop\Projeto\ProjetoForm1\obj\Debug\Atividades.csproj.Generate
 C:\Users\vinit\Desktop\Projeto\ProjetoForm1\obj\Debug\Atividades.csproj.CoreCompileInputs.cache
 C:\Users\vinit\Desktop\Projeto\ProjetoForm1\obj\Debug\ProjetoForm1.exe
 C:\Users\vinit\Desktop\Projeto\ProjetoForm1\obj\Debug\ProjetoForm1.pdb
+C:\Users\vinit\Desktop\Projeto\ProjetoForm1\obj\Debug\ProjetoForm1.Atividade8.resources

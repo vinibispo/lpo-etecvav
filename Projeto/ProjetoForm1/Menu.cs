@@ -86,5 +86,12 @@ namespace ProjetoForm1
             a7.Show();
             this.Hide();
         }
+
+        private void atividade8ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Atividade8 a8= new Atividade8();
+            a8.Show();
+            this.Hide();
+        }
     }
 }
