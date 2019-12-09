@@ -39,10 +39,10 @@
             // 
             this.lb1.FormattingEnabled = true;
             this.lb1.ItemHeight = 16;
-            this.lb1.Location = new System.Drawing.Point(49, 166);
+            this.lb1.Location = new System.Drawing.Point(49, 136);
             this.lb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(83, 372);
+            this.lb1.Size = new System.Drawing.Size(74, 372);
             this.lb1.TabIndex = 7;
             // 
             // label1
@@ -58,7 +58,7 @@
             // 
             // btn_exec
             // 
-            this.btn_exec.Location = new System.Drawing.Point(369, 492);
+            this.btn_exec.Location = new System.Drawing.Point(326, 459);
             this.btn_exec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_exec.Name = "btn_exec";
             this.btn_exec.Size = new System.Drawing.Size(141, 49);
@@ -72,15 +72,15 @@
             this.txt_nome.Location = new System.Drawing.Point(161, 82);
             this.txt_nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_nome.Name = "txt_nome";
-            this.txt_nome.Size = new System.Drawing.Size(195, 22);
+            this.txt_nome.Size = new System.Drawing.Size(251, 22);
             this.txt_nome.TabIndex = 10;
             // 
             // btn_prox
             // 
-            this.btn_prox.Location = new System.Drawing.Point(13, 13);
-            this.btn_prox.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_prox.Location = new System.Drawing.Point(326, 361);
+            this.btn_prox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_prox.Name = "btn_prox";
-            this.btn_prox.Size = new System.Drawing.Size(100, 28);
+            this.btn_prox.Size = new System.Drawing.Size(141, 50);
             this.btn_prox.TabIndex = 13;
             this.btn_prox.Text = "Voltar";
             this.btn_prox.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(523, 554);
             this.Controls.Add(this.btn_prox);
             this.Controls.Add(this.txt_nome);

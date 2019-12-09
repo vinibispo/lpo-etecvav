@@ -56,7 +56,7 @@
             // 
             // btn_ver
             // 
-            this.btn_ver.Location = new System.Drawing.Point(564, 326);
+            this.btn_ver.Location = new System.Drawing.Point(568, 260);
             this.btn_ver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_ver.Name = "btn_ver";
             this.btn_ver.Size = new System.Drawing.Size(100, 28);
@@ -67,7 +67,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(424, 326);
+            this.button2.Location = new System.Drawing.Point(439, 260);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
@@ -78,9 +78,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 331);
+            this.button1.Location = new System.Drawing.Point(313, 260);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(101, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "Voltar";
             this.button1.UseVisualStyleBackColor = true;
@@ -90,8 +91,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(680, 357);
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(680, 310);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_ver);

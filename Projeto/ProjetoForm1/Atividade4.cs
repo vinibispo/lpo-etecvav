@@ -12,8 +12,8 @@ namespace ProjetoForm1
 {
     public partial class Atividade4 : Form
     {
-        string frase, fraseinversa, frasesemespaco, a="a", le="e", i="i" ,o="o" ,u="u" ;
-
+        string frase, aocontrario, fraseEspaco, a="a", le="e", i="i" ,o="o" ,u="u" ;
+       
         private void Button1_Click(object sender, EventArgs e)
         {
             Menu menu = new Menu();
@@ -28,29 +28,40 @@ namespace ProjetoForm1
 
         private void Atividade4_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+
+            if (MessageBox.Show("Você realmente deseja sair?", "Deseja sair?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+
+            else
+            {
+                e.Cancel = true;
+
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+   
+
             frase = txt_frase.Text;
 
             for (int i = frase.Length - 1; i >= 0; i--)
             {
-                fraseinversa += frase[i];
+                aocontrario += frase[i];
                
             }
 
-            txt_inversa.Text = fraseinversa;
+            txt_inversa.Text = aocontrario;
 
             for (int i = 0; i < frase.Length; i++)
             {
                 l_vertical.Items.Add(frase[i]);
             }
 
-            frasesemespaco = frase.Replace(" ", "");
-            txt_espaco.Text = frasesemespaco;
+            fraseEspaco = frase.Replace(" ", "");
+            txt_espaco.Text = fraseEspaco;
 
             int quantidade_a = frase.Length - frase.Replace(a, "").Length;
             txt_a.Text = quantidade_a.ToString();
@@ -75,7 +86,7 @@ namespace ProjetoForm1
                 l_porpalavra.Items.Add(palavraporpalavra[i]);
             }
             
-            if (frase == fraseinversa)
+            if (frase == aocontrario)
             {
                 MessageBox.Show("A frase é um políndrome.", "Políndrome", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -100,7 +111,7 @@ namespace ProjetoForm1
             txt_u.Clear();
             l_porpalavra.Items.Clear();
             l_vertical.Items.Clear();
-            fraseinversa = "";
+            aocontrario = "";
         }
     }
 }

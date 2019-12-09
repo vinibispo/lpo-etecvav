@@ -69,6 +69,30 @@
     <Compile Include="Atividade1.Designer.cs">
       <DependentUpon>Atividade1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Atividade5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividade5.Designer.cs">
+      <DependentUpon>Atividade5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividade6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividade6.Designer.cs">
+      <DependentUpon>Atividade6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividade7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividade7.Designer.cs">
+      <DependentUpon>Atividade7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atividade8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividade8.Designer.cs">
+      <DependentUpon>Atividade8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +112,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Atividade1.resx">
       <DependentUpon>Atividade1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividade5.resx">
+      <DependentUpon>Atividade5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividade6.resx">
+      <DependentUpon>Atividade6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividade7.resx">
+      <DependentUpon>Atividade7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atividade8.resx">
+      <DependentUpon>Atividade8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -113,6 +149,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Imagem\foto1.jpg" />
+    <Content Include="img\inverno.jpg" />
+    <Content Include="img\natal.jpg" />
+    <Content Include="img\novo.jpg" />
+    <Content Include="img\outono.jpg" />
+    <Content Include="img\primavera.jpg" />
+    <Content Include="img\verao.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
